@@ -24,12 +24,15 @@ export default function InputForm() {
                 <br></br>
             </form> 
 
-            <WordFilter 
-                wordStart={wordStart}
-                wordEnd={wordEnd}
-                wordContains={wordContains}
-                wordLength={wordLength}
-            />
+            <div class="wordFilter">
+                <WordFilter 
+                    wordStart={wordStart}
+                    wordEnd={wordEnd}
+                    wordContains={wordContains}
+                    wordLength={wordLength}
+                />
+            </div>
+            
         </>
 
     );

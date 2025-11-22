@@ -37,10 +37,35 @@ li {
   font-size: 1.5em;
 }
 
+ul li {
+  float: left;
+  width: 25%;
+}
+
+#page-wrap {
+  max-width:850px;
+  height:100%;
+  margin: 0 auto;
+}
+
+header {
+    margin: 80px 0 0 0;
+    float:right;
+}
+
+#main-content {
+   margin: 80px 0 0 0;
+   display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
 
 footer {
   font-size: 1em;
   font-style: italic;
+  text-align: center;
   position: fixed;
   bottom: 10px;
   padding: 5px;
@@ -52,6 +77,12 @@ footer {
   will-change: filter;
   transition: filter 300ms;
 }
+
+.wordFilter {
+  float: none;
+  overflow: visible;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

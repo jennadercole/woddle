@@ -9,9 +9,15 @@ function App() {
 
   return (
     <>
+    <div id="page-wrap">
       <Header />
-      <InputForm />
-      <WordFilter />
+       <div class="clear"> </div>
+       <div id="main-content">
+        <InputForm />
+        <WordFilter />
+       </div>
+    </div>
+      
       <Footer />
     </>
   )

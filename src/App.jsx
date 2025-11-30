@@ -11,13 +11,12 @@ function App() {
     <>
     <div id="page-wrap">
       <Header />
-       <div class="clear"> </div>
+       <div className="clear"> </div>
        <div id="main-content">
         <InputForm />
         <WordFilter />
        </div>
     </div>
-      
       <Footer />
     </>
   )
